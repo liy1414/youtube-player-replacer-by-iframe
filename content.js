@@ -41,7 +41,7 @@ function replaceYoutubePlayer() {
 
         const iframe = document.createElement('iframe');
 
-        iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&modestbranding=1&rel=0&showinfo=0&controls=1&disablekb=1`;
+        iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
 
         iframe.style.width = `${rect.width}px`;
         iframe.style.height = `${rect.height}px`;
