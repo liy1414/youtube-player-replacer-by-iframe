@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Player Replacer",
+    "description": "Replaces the default YouTube player with a simple iframe player.",
+    "version": "1.0",
+    "author": "levish",
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.youtube.com/watch?v=*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": []
+}
