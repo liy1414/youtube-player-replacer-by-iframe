@@ -8,7 +8,7 @@ This guide will walk you through the steps to download, extract, and install thi
 2. Select **"Download ZIP"**.
 
    Alternatively, you can use this direct link:  
-   `https://github.com/liy1414/youtube-player-replacer-by-iframe/archive/refs/heads/master.zip`
+   https://github.com/liy1414/youtube-player-replacer-by-iframe/archive/refs/heads/master.zip
 
 ## 📂 Extract the Folder
 
